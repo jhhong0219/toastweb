@@ -1,0 +1,108 @@
+.screen {
+    position: relative;
+    background-color: #f0f0f3;
+    width: 430px;
+    height: 943px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.homeButton{
+    position: absolute;
+    border:none;
+    top: 80px;
+    right: 32px;
+}
+
+#text1 {
+    position: absolute;
+    color: #A69485;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 108px;
+    left: 40px;
+}
+#text2Bold{
+    position: absolute;
+    display: inline;
+    color: #000;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 132px;
+    left: 40px;
+}
+#text2{
+    position: absolute;
+    display: inline;
+    color: #000;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    top: 132px;
+    left: 172px;
+}
+#text3{
+    position: absolute;
+    display: inline-block;
+    color: #727272;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    top: 196px;
+    left: 40px;
+}
+#text4{
+    position: absolute;
+    display: inline-block;
+    color: #727272;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 196px;
+    left: 92px;
+}
+.tipTitle{
+    position: absolute;
+    color: #727272;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 281px;
+    left: 40px;
+}
+.tipContent{
+    position: absolute;
+    color: #727272;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 200% */
+    top: 326px;
+    left: 43px;
+    width: 344px;
+}
+.readyButton{
+    position: absolute;
+    border:none;
+    top: 752px;
+    left: 40px;
+    bottom: 20px;
+    width: 264px;
+    height: 68px;
+}

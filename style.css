@@ -1,0 +1,94 @@
+.screen {
+    position: relative;
+    background-color: #f0f0f3;
+    width: 430px;
+    height: 943px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.introTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.intro맛있는 {
+    position:absolute;
+    width: 112px;
+    height: 38px;
+    top: 233px;
+    left: 159px;
+    font-family: pretendard;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    color: #A69485;
+}
+.intro프렌치토스트 {
+    position:absolute;
+    width: 195px;
+    height: 43px;
+    top: 285px;
+    left: 83px;
+    font-family: pretendard;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+.intro만들기 {
+    position:absolute;
+    width: 63px;
+    height: 29px;
+    top: 304px;
+    left: 295px;
+    font-family: pretendard;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.startButton {
+    position: relative;
+    display: flex; /* 버튼 안의 텍스트도 중앙 정렬 */
+    align-items: center;
+    justify-content: center;
+    border:none;
+    width:132px;
+    height: 132px;
+}
+.buttonBox{
+    position:absolute;
+    top: 0;
+}
+.introStart{
+    position:absolute;
+    text-align: center;
+    color: rgba(115, 100, 89, 0.58);
+    font-family: pretendard;
+    font-weight: 400;
+    font-size: 32px;
+    font-style: normal;
+    line-height: normal;
+    display: flex; /* 버튼 안의 텍스트도 중앙 정렬 */
+    align-items: center;
+    justify-content: center;
+    top: 85px;
+}
+.loadingText{
+    position: relative;
+    width:237px;
+    height: 34px;
+    top:250px;
+    left: center;
+    color:#727272;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border:none;
+}

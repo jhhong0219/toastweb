@@ -1,0 +1,166 @@
+.screen {
+    position: relative;
+    background-color: #f0f0f3;
+    width: 430px;
+    height: 943px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.homeButton{
+    position: absolute;
+    border:none;
+    top: 80px;
+    right: 32px;
+}
+#text1 {
+    color: #A69485;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position:absolute;
+    top: 108px;
+    left: 40px;
+}
+#text2{
+    color: #000;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position:absolute;
+    top: 132px;
+    left: 40px;
+}
+#text3{
+    position: absolute;
+    display: inline-block;
+    color: #727272;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    top: 196px;
+    left: 40px;
+}
+#text4{
+    display: inline-block;
+    color: #727272;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position:absolute;
+    top: 196px;
+    left: 92px;
+}
+.timestartButton{
+    display:inline-block;
+    border: none;
+    position: absolute;
+    top: 580px;
+    left: -20px;
+    width: 160px;
+    height: 90px;
+}
+.timelapseButton{
+    display:inline-block;
+    border: none;
+    position:absolute;
+    top: 580px;
+    right: 80px; /*어디를 기준으로 잡히는 것..??*/
+    width: 160px;
+    height: 90px;
+}
+.previousButton{
+    display:inline-block;
+    border:none;
+    position:absolute;
+    top: 780px;
+    left: 30px;
+}
+.nextButton{
+    display:inline-block;
+    border:none;
+    position:absolute;
+    top: 780px;
+    right: 47px;
+}
+#timer { 
+    color: #000;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position:absolute;
+    top: 371px;
+    left:88px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.timelapseList {
+    list-style-type: none; 
+    padding: 0;
+    color: #000;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    position:absolute; 
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%);
+    align-content: center;
+}
+  
+  .blink {
+    animation: blink 1s step-start infinite;
+  }
+#nowMessage1{
+    display: none; 
+    position: absolute; 
+    font-family: Pretendard; 
+    font-size: 30px; 
+    color: #A69485;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    align-content: center;
+}
+#nowMessage2{
+    display: none; 
+    position: absolute; 
+    font-family: Pretendard; 
+    font-size: 20px; 
+    color: #A69485;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    align-content: center;
+    width:149px;
+    height:24px;
+}  
+#nowMessage{
+    position: absolute; 
+    left: 50%;
+    transform: translateX(-50%);
+    align-content: center;
+}
