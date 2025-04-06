@@ -1,8 +1,13 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 .screen {
     position: relative;
     background-color: #f0f0f3;
-    width: 430px;
-    height: 943px;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,8 +16,8 @@
 .homeButton{
     position: absolute;
     border:none;
-    top: 80px;
-    right: 32px;
+    top: 8.6vh;
+    right: 7.4vw;
 }
 
 #text1 {
@@ -23,8 +28,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    top: 108px;
-    left: 40px;
+    top: 11.6vh;
+    left: 9.3vw;
 }
 #text2Bold{
     position: absolute;
@@ -35,8 +40,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    top: 132px;
-    left: 40px;
+    top: 14.2vh;
+    left: 9.3vw;
 }
 #text2{
     position: absolute;
@@ -47,8 +52,8 @@
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    top: 132px;
-    left: 172px;
+    top: 14.2vh;
+    left: 40vw;
 }
 #text3{
     position: absolute;
@@ -59,8 +64,8 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    top: 196px;
-    left: 40px;
+    top: 21.1vh;
+    left: 9.3vw;
 }
 #text4{
     position: absolute;
@@ -71,8 +76,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    top: 196px;
-    left: 92px;
+    top: 21.1vh;
+    left: 21.4vw;
 }
 .tipTitle{
     position: absolute;
@@ -82,8 +87,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    top: 281px;
-    left: 40px;
+    top: 30.2vh;
+    left: 9.3vw;
 }
 .tipContent{
     position: absolute;
@@ -93,16 +98,16 @@
     font-style: normal;
     font-weight: 300;
     line-height: 28px; /* 200% */
-    top: 326px;
-    left: 43px;
-    width: 344px;
+    top: 35.05vh;
+    left: 9.3vw;
+    width: 80vw;
 }
 .readyButton{
     position: absolute;
     border:none;
-    top: 752px;
-    left: 40px;
-    bottom: 20px;
-    width: 264px;
-    height: 68px;
+    top: 80.8vh;
+    left: 9.3vw;
+    bottom: 2.1vh;
+    width: 61.4vw;
+    height: 7.3vh;
 }
