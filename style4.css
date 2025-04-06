@@ -1,8 +1,12 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 .screen {
     position: relative;
     background-color: #f0f0f3;
-    width: 430px;
-    height: 943px;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,8 +15,8 @@
 .homeButton{
     position: absolute;
     border:none;
-    top: 80px;
-    right: 32px;
+    top: 8.6vh;
+    right: 7.4vw;
 }
 #text1 {
     color: #A69485;
@@ -22,8 +26,8 @@
     font-weight: 400;
     line-height: normal;
     position:absolute;
-    top: 108px;
-    left: 40px;
+    top: 11.6vh;
+    left: 9.3vw;
 }
 #text2{
     color: #000;
@@ -33,8 +37,8 @@
     font-weight: 400;
     line-height: normal;
     position:absolute;
-    top: 132px;
-    left: 40px;
+    top: 14.2vh;
+    left: 9.2vw;
 }
 #text3{
     position: absolute;
@@ -45,8 +49,8 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    top: 196px;
-    left: 40px;
+    top: 21vh;
+    left: 9.2vw;
 }
 #text4{
     display: inline-block;
@@ -57,40 +61,40 @@
     font-weight: 400;
     line-height: normal;
     position:absolute;
-    top: 196px;
-    left: 92px;
+    top: 21vh;
+    left: 21.4vw;
 }
 .timestartButton{
     display:inline-block;
     border: none;
     position: absolute;
-    top: 580px;
-    left: -20px;
-    width: 160px;
-    height: 90px;
+    top: 62.3vh;
+    left: -4.6vw;
+    width: 37.2vw;
+    height: 9.7vh;
 }
 .timelapseButton{
     display:inline-block;
     border: none;
     position:absolute;
-    top: 580px;
-    right: 80px; /*어디를 기준으로 잡히는 것..??*/
-    width: 160px;
-    height: 90px;
+    top: 62.3vh;
+    right: 18.6vw;
+    width: 37.2vw;
+    height: 9.7vh;
 }
 .previousButton{
     display:inline-block;
     border:none;
     position:absolute;
-    top: 780px;
-    left: 30px;
+    top: 83.9vh;
+    left: 7vw;
 }
 .nextButton{
     display:inline-block;
     border:none;
     position:absolute;
-    top: 780px;
-    right: 47px;
+    top: 83.9vh;
+    right: 10.9vw;
 }
 #timer { 
     color: #000;
@@ -101,8 +105,8 @@
     font-weight: 400;
     line-height: normal;
     position:absolute;
-    top: 371px;
-    left:88px;
+    top: 40vh;
+    left:20.4vw;
     align-content: center;
     display: flex;
     justify-content: center;
@@ -115,20 +119,20 @@
   }
 
 .timelapseList {
-    list-style-type: none; 
+    list-style-type:none; 
     padding: 0;
     color: #000;
     text-align: center;
     font-family: Pretendard;
-    font-size: 16px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 200;
     line-height: normal;
     position:absolute; 
-    top: 0px;
-    left: 50%;
-    transform: translate(-50%);
-    align-content: center;
+    top: 54vh;
+    left: 42.5vw;
+    width: 14.9vw;
+    height: 3.1vh;
 }
   
   .blink {
@@ -140,9 +144,10 @@
     font-family: Pretendard; 
     font-size: 30px; 
     color: #A69485;
-    top: -50px;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 34vh;
+    left: 35.8vw;
+    width: 28.3vw;
+    height: 4vh;
     align-content: center;
 }
 #nowMessage2{
@@ -151,16 +156,13 @@
     font-family: Pretendard; 
     font-size: 20px; 
     color: #A69485;
-    top: 200px;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 21.5vh;
+    left: 32.8vw;
     align-content: center;
-    width:149px;
-    height:24px;
+    width:34.6vw;
+    height:2.6vh;
 }  
 #nowMessage{
     position: absolute; 
-    left: 50%;
-    transform: translateX(-50%);
     align-content: center;
 }
