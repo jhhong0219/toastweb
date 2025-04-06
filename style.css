@@ -1,8 +1,12 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 .screen {
     position: relative;
     background-color: #f0f0f3;
-    width: 430px;
-    height: 943px;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,10 +20,10 @@
 }
 .intro맛있는 {
     position:absolute;
-    width: 112px;
-    height: 38px;
-    top: 233px;
-    left: 159px;
+    width: 26vw;
+    height: 4vh;
+    top: 25vh;
+    left: 37vw;
     font-family: pretendard;
     font-weight: 400;
     font-size: 32px;
@@ -28,10 +32,10 @@
 }
 .intro프렌치토스트 {
     position:absolute;
-    width: 195px;
-    height: 43px;
-    top: 285px;
-    left: 83px;
+    width: 45.3vw;
+    height: 4.6vh;
+    top: 30.6vh;
+    left: 19.3vw;
     font-family: pretendard;
     font-weight: 700;
     font-size: 36px;
@@ -40,10 +44,10 @@
 }
 .intro만들기 {
     position:absolute;
-    width: 63px;
-    height: 29px;
-    top: 304px;
-    left: 295px;
+    width: 14.6vw;
+    height: 3.1vh;
+    top: 32.7vh;
+    left: 68.6vw;
     font-family: pretendard;
     font-weight: 300;
     font-size: 24px;
@@ -75,13 +79,13 @@
     display: flex; /* 버튼 안의 텍스트도 중앙 정렬 */
     align-items: center;
     justify-content: center;
-    top: 85px;
+    top: 9.1vh;
 }
 .loadingText{
     position: relative;
-    width:237px;
-    height: 34px;
-    top:250px;
+    width:55.1vw;
+    height: 3.6vh;
+    top:26.9vh;
     left: center;
     color:#727272;
     text-align: center;
