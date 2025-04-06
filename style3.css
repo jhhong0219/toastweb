@@ -1,8 +1,13 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 .screen {
     position: relative;
     background-color: #f0f0f3;
-    width: 430px;
-    height: 943px;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,8 +16,8 @@
 .homeButton{
     position: absolute;
     border:none;
-    top: 80px;
-    right: 32px;
+    top: 8.6vh;
+    right: 7.4vw;
 }
 #text1 {
     position: absolute;
@@ -22,8 +27,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    top: 108px;
-    left: 40px;
+    top: 11.6vh;
+    left: 9.3vw;
 }
 #text2{
     position: absolute;
@@ -34,8 +39,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    top: 132px;
-    left: 40px;
+    top: 14.2vh;
+    left: 9.3vw;
 }
 #text3{
     position: absolute;
@@ -46,8 +51,8 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    top: 196px;
-    left: 40px;
+    top: 21.1vh;
+    left: 9.3vw;
 }
 #text4{
     position: absolute;
@@ -58,40 +63,40 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    top: 196px;
-    left: 92px;
+    top: 21.1vh;
+    left: 21.4vw;
 }
 .step1{
     position:absolute;
-    top:322px;
-    left:55px;
+    top:34.6vh;
+    left:12.8vw;
 }
 .step2{
     position:absolute;
-    top:414px;
-    left:55px;
+    top:44.5vh;
+    left:12.8vw;
 }
 .step3{
     position:absolute;
-    top:506px;
-    left:55px;
+    top:54.4vh;
+    left:12.8vw;
 }
 .step4{
     position:absolute;
-    top:598px;
-    left:55px;
+    top:64.3vh;
+    left:12.8vw;
 }
 .previousButton{
     display:inline-block;
     border:none;
     position:absolute;
-    top: 780px;
-    left: 30px;
+    top: 83.8vh;
+    left: 6.97vw;
 }
 .nextButton{
     display:inline-block;
     border:none;
     position:absolute;
-    top: 780px;
-    right: 47px;
+    top: 83.8vh;
+    right: 11vw;
 }
