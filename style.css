@@ -26,7 +26,7 @@ body {
     left: 37vw;
     font-family: pretendard;
     font-weight: 400;
-    font-size: 7.4vw;
+    font-size: 32px;
     text-align: center;
     color: #A69485;
 }
@@ -38,8 +38,8 @@ body {
     left: 19.3vw;
     font-family: pretendard;
     font-weight: 700;
-    font-size: 8.4vw;
-    line-height: 4.5vh;
+    font-size: 36px;
+    line-height: 42px;
     color: #000000;
 }
 .intro만들기 {
@@ -50,8 +50,8 @@ body {
     left: 68.6vw;
     font-family: pretendard;
     font-weight: 300;
-    font-size: 5.6vw;
-    line-height: 3vh;
+    font-size: 24px;
+    line-height: 28px;
     color: #000000;
 }
 .startButton {
